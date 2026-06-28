@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Jainam Shastri — Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="three.min.js"></script>
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loading-content">
+      <div class="scan-line"></div>
+      <div class="loading-logo">
+        <span class="logo-bracket">[</span>
+        <span class="logo-text">JS</span>
+        <span class="logo-bracket">]</span>
+      </div>
+      <h1 class="loading-name">JAINAM SHASTRI</h1>
+      <p class="loading-title">Data Analyst // GCP Cloud Operations</p>
+      <div class="loading-bar-wrap">
+        <div class="loading-bar"><div class="loading-fill" id="loading-fill"></div></div>
+        <span class="loading-pct" id="loading-pct">0%</span>
+      </div>
+      <p class="loading-status" id="loading-status">Initializing data center environment...</p>
+      <div class="loading-grid"></div>
+    </div>
+  </div>
+
+  <!-- Canvas -->
+  <div id="canvas-container"></div>
+
+  <!-- Enter Prompt -->
+  <div id="click-prompt">
+    <div class="prompt-box">
+      <div class="prompt-rings">
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+        <div class="ring ring3"></div>
+        <div class="prompt-dot"></div>
+      </div>
+      <h2>ENTER DATA CENTER</h2>
+      <p class="prompt-sub">Tap or click to begin</p>
+      <div class="prompt-controls">
+        <div class="ctrl"><kbd>Left thumb</kbd><span>Move</span></div>
+        <div class="ctrl"><kbd>Right drag</kbd><span>Look</span></div>
+        <div class="ctrl"><kbd>W A S D</kbd><span>Desktop</span></div>
+      </div>
+      <p class="prompt-hint">Walk toward server racks to explore</p>
+    </div>
+  </div>
+
+  <!-- HUD Top Bar -->
+  <div id="hud">
+    <div id="hud-top-left">
+      <span class="hud-name">JAINAM SHASTRI</span>
+      <span class="hud-role">PROGRAM MANAGER // DATA ANALYST II // ASTREYA × GCP</span>
+    </div>
+    <div id="hud-top-right">
+      <span class="hud-dim" id="hud-sector">CORRIDOR</span>
+      <span class="hud-dim" id="hud-coords">0.0, 0.0</span>
+    </div>
+    <div id="crosshair">
+      <div class="ch-h"></div>
+      <div class="ch-v"></div>
+      <div class="ch-dot"></div>
+    </div>
+  </div>
+
+  <!-- Zone Cinematic Announcement — center screen on entry -->
+  <div id="zone-announce">
+    <div id="za-inner">
+      <div id="za-code"></div>
+      <div id="za-line-top"></div>
+      <h1 id="za-title"></h1>
+      <p id="za-subtitle"></p>
+      <div id="za-line-bot"></div>
+      <p id="za-hint">TAP FOR FULL DETAILS ▼</p>
+    </div>
+  </div>
+
+  <!-- Detail drawer — slides up on tap -->
+  <div id="info-panel">
+    <div id="info-collapsed" onclick="togglePanel()">
+      <span class="info-dot" id="info-dot"></span>
+      <span id="info-sector-name"></span>
+      <span id="info-short-title"></span>
+      <span class="info-expand-icon">▲</span>
+    </div>
+    <div id="info-expanded">
+      <div class="info-exp-header">
+        <span class="info-online">● ONLINE</span>
+        <span id="panel-zone"></span>
+      </div>
+      <h2 id="panel-title"></h2>
+      <p id="panel-subtitle"></p>
+      <div class="panel-divider" id="panel-divider"></div>
+      <p id="panel-content"></p>
+      <div id="panel-tags"></div>
+    </div>
+  </div>
+
+  <!-- Minimap -->
+  <div id="minimap">
+    <div class="minimap-header">MAP</div>
+    <canvas id="minimap-canvas" width="90" height="150"></canvas>
+  </div>
+
+  <!-- 3D guide character lives in Three.js scene — no HTML needed -->
+
+  <!-- Virtual Joystick -->
+  <div id="joystick-base">
+    <div id="joystick-knob"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
