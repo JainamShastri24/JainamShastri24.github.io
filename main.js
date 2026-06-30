@@ -219,7 +219,7 @@ var zones = [
     zRange: [-25, -29], center: -27,
     title: 'Automation & Let\'s Talk',
     subtitle: 'I automate bottlenecks and I\'m open to the next challenge',
-    content: 'Every manual process is a bottleneck waiting to be eliminated.\n\nI work across Engineering, Logistics, Procurement, and Ops — identifying where humans do what scripts should, then automating it. At EVM India, process automation drove 35% reporting efficiency improvement, 20% labor cost reduction, and 15% productivity gain.\n\nSkills: Python · SQL · R · Power BI · Google PLX · BigQuery · Excel · Data Nexus · Buganizer · Slack · Google Suite\n\nReach out:\njainamshastri24@gmail.com\n(519) 760-9277',
+    content: 'Every manual process is a bottleneck waiting to be eliminated.\n\nI work across Engineering, Logistics, Procurement, and Ops — identifying where humans do what scripts should, then automating it. At EVM India, process automation drove 35% reporting efficiency improvement, 20% labor cost reduction, and 15% productivity gain.\n\nSkills: Python · SQL · R · Power BI · Google PLX · BigQuery · Excel · Data Nexus · Buganizer · Slack · Google Suite\n\nReach out:\njainamshastri24@gmail.com',
     tags: ['Process Automation', 'Python', 'SQL', 'Bottleneck Analysis', 'Open to Work', 'Canada', 'Relocate'],
   },
 ];
@@ -654,7 +654,7 @@ var guideLines = [
   'Sector 2: GCP Cloud Ops. Jainam builds dashboards inside Google. Tap ▼.',
   'Sector 3: Order Engine. Hardware lifecycle from signal to rack. Tap ▼.',
   'Sector 4: Forecasting. ARIMA models, 80% accuracy. Tap ▼ for projects.',
-  "Last stop! Let's connect. Email and phone inside. Tap ▼.",
+  "Last stop! Let's connect. Email inside. Tap ▼.",
   'Keep exploring — walk through each glowing arch!',
 ];
 
