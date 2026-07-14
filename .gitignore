@@ -1,0 +1,14 @@
+# Raw/unencoded videos (only encoded versions needed for site)
+assets/vid/dive1.mp4
+assets/vid/dive2.mp4
+assets/vid/dive3.mp4
+assets/vid/dive4.mp4
+assets/vid/conn1.mp4
+assets/vid/conn2.mp4
+assets/vid/conn3.mp4
+assets/vid/encoded/
+
+# Dev assets
+screenshot/
+prompts/
+assets/frames/
