@@ -1,0 +1,49 @@
+[
+  {
+    "created_at": "2026-07-14T17:06:04.818821Z",
+    "display_name": "Seedance 2.0",
+    "id": "2765a0a8-265c-4e2e-bd92-39f86a0a02a0",
+    "job_type": "seedance_2_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "bitrate_mode": "standard",
+      "duration": 5,
+      "generate_audio": false,
+      "genre": "auto",
+      "height": 1080,
+      "medias": [
+        {
+          "data": {
+            "id": "12d9f3f2-dabb-4da8-b1ad-ffd7aa382785",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GV7aOymq2Pexgf2WhhSarHjMGn/12d9f3f2-dabb-4da8-b1ad-ffd7aa382785.png"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "95026f0c-897a-4e0b-b694-21ff3a2ed4e1",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GV7aOymq2Pexgf2WhhSarHjMGn/95026f0c-897a-4e0b-b694-21ff3a2ed4e1.png"
+          },
+          "role": "end_image"
+        }
+      ],
+      "mode": "std",
+      "model": "seedance_2_0",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Single continuous camera move, no cuts. Pull up and back out of the miniature clay analyst workstation desk diorama, rising into the sky above it, then glide smoothly across the connected miniature world and arrive above the logistics hub operations floor diorama, beginning to descend toward it. Seamless flowing aerial transition between two isometric clay diorama islands. Soft matte clay diorama, isometric, tilt-shift miniature, warm studio light. Smooth graceful slow motion. No text.",
+      "prompt_language": "en",
+      "reference_elements": [],
+      "resolution": "1080p",
+      "speedramp": "auto",
+      "width": 1920
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GV7aOymq2Pexgf2WhhSarHjMGn/hf_20260714_170604_2765a0a8-265c-4e2e-bd92-39f86a0a02a0.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3GV7aOymq2Pexgf2WhhSarHjMGn/hf_20260714_170604_2765a0a8-265c-4e2e-bd92-39f86a0a02a0_thumbnail.webp"
+  }
+]

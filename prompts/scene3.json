@@ -1,0 +1,22 @@
+[
+  {
+    "created_at": "2026-07-14T16:46:36.24777Z",
+    "display_name": "GPT Image 2",
+    "id": "c45db638-30ef-4b0b-9e40-fa19c7cbfc69",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GV7aOymq2Pexgf2WhhSarHjMGn/hf_20260714_164636_c45db638-30ef-4b0b-9e40-fa19c7cbfc69_min.webp",
+    "params": {
+      "aspect_ratio": "3:2",
+      "height": 1360,
+      "medias": [],
+      "model": "videotape-alpha",
+      "prompt": "Soft matte low-poly clay diorama, isometric view, tilt-shift miniature, warm studio light, depth of field. On a plain solid cloud-white (#F8F9FA) background with a soft contact shadow. Palette: #1A73E8 google blue, #FBBC04 signal yellow, #202124 ink dark, #F8F9FA cloud white. No text, no letters, no logos, centered, 3:2.\nSubject: An isometric miniature data center logistics and procurement hub — a busy operations floor with tiny clay server units on yellow wheeled trolleys being moved along color-coded floor lanes, a large demand-forecasting board on the wall with bar charts and supply indicators in blue and yellow, small clay figures coordinating machine placement, a staging area with neatly stacked clay server boxes in google-blue packaging, a procurement command desk with multiple tiny screens showing supply chain dashboards and order status, organized and purposeful energy.",
+      "quality": "high",
+      "reference_elements": [],
+      "resolution": "2k",
+      "width": 2048
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GV7aOymq2Pexgf2WhhSarHjMGn/hf_20260714_164636_c45db638-30ef-4b0b-9e40-fa19c7cbfc69.png",
+    "status": "completed"
+  }
+]
