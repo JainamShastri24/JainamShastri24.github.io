@@ -180,7 +180,7 @@ function mountScrollWorld(container, config) {
     let off = 0;
     SEGMENTS.forEach(s => { s.start = off * vh; off += s.w; s.end = off * vh; });
     totalW = off;
-    track.style.height = (totalW * vh + vh) + 'px';   // +1vh so the last flight completes
+    track.style.height = (totalW * vh + vh * 0.15) + 'px';   // small tail so last flight completes
     read();
   }
 
