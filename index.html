@@ -94,6 +94,8 @@
       background: none !important;
       border: none !important;
       padding: 0 !important;
+      opacity: 1 !important;
+      transition: none !important;
     }
 
     .sw-copy__num {
@@ -432,14 +434,6 @@
       'Talk<span style="color:#FBBC04">.</span>';
   })();
 
-  // ── Keep copy at full brightness while in-section ──
-  (function keepCopyBright() {
-    document.querySelectorAll('.sw-copy').forEach(function(c) {
-      var op = parseFloat(c.style.opacity);
-      if (op > 0.4 && op < 1) c.style.opacity = '1';
-    });
-    requestAnimationFrame(keepCopyBright);
-  })();
 
   // ── Interstitial text during connectors ──
   // The engine creates a track div; we watch scroll to detect connector ranges.
