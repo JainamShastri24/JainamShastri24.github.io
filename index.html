@@ -432,13 +432,27 @@
       'Talk<span style="color:#FBBC04">.</span>';
   })();
 
-  // ── Snap copy opacity: 0 or 1 only (no partial fade = no flicker) ──
+  // ── Snap copy opacity via MutationObserver (no rAF fight) ──
   (function snapCopyOpacity() {
-    document.querySelectorAll('.sw-copy').forEach(function(c) {
-      var op = parseFloat(c.style.opacity);
-      if (!isNaN(op)) c.style.opacity = op > 0.3 ? '1' : '0';
+    var observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(m) {
+        var el = m.target;
+        var op = parseFloat(el.style.opacity);
+        if (isNaN(op)) return;
+        var snapped = op > 0.3 ? '1' : '0';
+        if (el.style.opacity !== snapped) {
+          observer.disconnect();
+          el.style.opacity = snapped;
+          observe();
+        }
+      });
     });
-    requestAnimationFrame(snapCopyOpacity);
+    function observe() {
+      document.querySelectorAll('.sw-copy').forEach(function(c) {
+        observer.observe(c, { attributes: true, attributeFilter: ['style'] });
+      });
+    }
+    observe();
   })();
 
   // ── Interstitial text during connectors ──
